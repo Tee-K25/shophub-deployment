@@ -84,10 +84,8 @@ function App() {
               isLoggedIn={isLoggedIn}
             />
           }
-        >
-          
-        </Route>
-        <Route path="/cart" element={<Cart />} />
+        ></Route>
+        <Route path="/cart/" element={<Cart products={products} />} />
         <Route
           path="/signIn"
           element={

@@ -13,6 +13,15 @@ function SelectedProduct({ products, isSignedIn, isLoggedIn }) {
   console.log(pathname);
   const path = pathname;
 
+  //function to add item to cart
+  function addItem() {
+    fetch(" http://localhost:8000/cartItems", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(select),
+    }).then((res) => console.log(res));
+  }
+
   return (
     <div>
       <div className="heading">
@@ -32,8 +41,8 @@ function SelectedProduct({ products, isSignedIn, isLoggedIn }) {
             <li>Price: {select["unit_price"]}</li>
           </ul>
           {isLoggedIn ? (
-            <Link to="/cart">
-              <button>Add to cart</button>
+            <Link to="/cart/">
+              <button onClick={addItem}>Add to cart</button>
             </Link>
           ) : (
             <Link to="/logIn">
