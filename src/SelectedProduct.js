@@ -24,9 +24,6 @@ function SelectedProduct({ products, isSignedIn, isLoggedIn }) {
 
   return (
     <div>
-      <div className="heading">
-        <h2>Add to Cart</h2>
-      </div>
       <div className="selectprod">
         <div className="image">
           <h3>{select["product_name"]}</h3>

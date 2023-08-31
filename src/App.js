@@ -44,6 +44,10 @@ function App() {
   return (
     <div>
       <div className="logging">
+      <div className="sign">
+            {" "}
+            <h1> ShopHub</h1>
+          </div>
         {isSignedIn ? (
           <div className="sign">
             {" "}
@@ -58,7 +62,7 @@ function App() {
           </div>
         )}
         {isLoggedIn ? (
-          <div className="sign">
+          <div className="signout">
             {" "}
             <button onClick={handleLogout}>Log Out</button>{" "}
           </div>

@@ -18,7 +18,7 @@ function ProductList({ products, isSignedIn }) {
           </ul>
           <Link to={`/${index}`} id="Link">
             {" "}
-            <p>Click here for more info...</p>
+            <p className="moreInfo"> View Details...</p>
           </Link>
         </div>
       </div>
