@@ -7,6 +7,8 @@ import SelectedProduct from "./SelectedProduct";
 import Login from "./Login";
 import Signin from "./Signin";
 import Cart from "./Cart";
+import Checkout from "./Checkout";
+import Receipt from "./Receipt";
 
 function App() {
   const [products, setProducts] = useState([
@@ -24,6 +26,8 @@ function App() {
   const [isSignedIn, setIsSignedIn] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [name, setName] = useState(null);
+  //state to receive data from checkout
+  const [checkoutData, setCheckoutData] = useState(null);
 
   useEffect(() => {
     fetch("http://ecommerce.muersolutions.com/api/v1/products")
@@ -113,6 +117,15 @@ function App() {
             />
           }
         />
+        <Route
+          path="/checkout"
+          element={<Checkout />}
+          payData={(billing) => {
+            setCheckoutData(billing);
+            console.log(billing);
+          }}
+        />
+        <Route path="/receipt" element={<Receipt data={checkoutData} />} />
       </Routes>
     </div>
   );
