@@ -1,5 +1,6 @@
 import React from "react";
 import "./productlist.css";
+import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 function Cart() {
@@ -22,7 +23,9 @@ function Cart() {
     <div>
       <h1>My Cart</h1>
       <div className="checkout">
-        <button>Checkout</button>
+        <button>
+          <Link to="/checkout">Checkout</Link>
+        </button>
       </div>
       {addedItem &&
         addedItem.map((data, index) => {

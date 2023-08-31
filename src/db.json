@@ -10,6 +10,39 @@
       "created": "2023-08-02T07:32:48.887065Z",
       "updated": null,
       "id": 1
+    },
+    {
+      "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "product_description": "Your Perfect Pack For Everyday Use And Walks In The Forest. Stash Your Laptop (Up To 15 Inches) In The Padded Sleeve, Your Everyday",
+      "unit_price": 109,
+      "product_full_image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "ranking": 3,
+      "created": "2023-08-02T07:04:33.516785Z",
+      "updated": null,
+      "id": 2
+    },
+    {
+      "product_name": "Mens Cotton Jacket",
+      "product_description": "Great Outerwear Jackets For Spring/Autumn/Winter, Suitable For Many Occasions, Such As Working, Hiking, Camping, Mountain/Rock Climbing, Cycling, Traveling Or Other Outdoors",
+      "unit_price": 5500,
+      "product_full_image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "ranking": 5,
+      "created": "2023-08-02T07:32:48.887065Z",
+      "updated": null,
+      "id": 3
+    },
+    {
+      "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "product_description": "Your Perfect Pack For Everyday Use And Walks In The Forest. Stash Your Laptop (Up To 15 Inches) In The Padded Sleeve, Your Everyday",
+      "unit_price": 109,
+      "product_full_image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "ranking": 3,
+      "created": "2023-08-02T07:04:33.516785Z",
+      "updated": null,
+      "id": 4
     }
   ]
 }
