@@ -1,0 +1,31 @@
+.selectprod{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.selectprod img{
+    height: 300px;
+    width: 300px;
+}
+.selectprod .image{
+    align-items: center;
+    text-align: center;
+}
+.selectprod .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.selectprod .details li{
+    list-style: none;
+}
+.selectprod .details button{
+    background-color: black;
+    color: aliceblue;
+}

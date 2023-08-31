@@ -1,0 +1,43 @@
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px 50px;
+    background-color: #2196F3;
+    
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.products img{
+    height: 300px;
+    width: 300px;
+    
+}
+.innerprod{
+  height: auto;
+  border: 1px solid black;
+  height: 530px;
+}
+.innerprod li{
+    list-style: none;
+}
+.innerprod #Link{
+    color: aliceblue;
+}
+.logging{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background: #b97171;
+}
+.sign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+}
+.sign button{
+    background-color: black;
+    color: aliceblue;
+}
