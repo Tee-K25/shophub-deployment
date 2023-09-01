@@ -48,6 +48,7 @@ const Checkout = ({ addedItem }) => {
             <label for="street">Street Address</label>
             <br />
             <input
+              placeholder="Address line"
               id="street"
               name="street"
               value={formData.street}
