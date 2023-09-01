@@ -2,21 +2,31 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 100px 50px;
-  background-color: #2196f3;
+  background-color: #ffffff;
 
   align-content: center;
   text-align: center;
-  padding: 30px;
+  padding: 70px 60px;
+}
+
+.moreInfo {
+  color: #ffffff;
+  padding: 15px 32px;
+  border-radius: 10px;
+  border: 1px solid black;
+  justify-content: center;
+  background-color: #b97171;
 }
 .products img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 .innerprod {
   height: auto;
   border: 1px solid black;
   height: 530px;
   border-radius: 5px;
+  box-shadow: 10px 10px;
 }
 .innerprod li {
   list-style: none;
@@ -27,7 +37,7 @@
 .logging {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: center;
   background: #b97171;
 }
 .sign {
@@ -40,6 +50,8 @@
 .sign button {
   background-color: black;
   color: aliceblue;
+  padding: 15px 32px;
+  border-radius: 10px;
 }
 .checkout {
   display: flex;

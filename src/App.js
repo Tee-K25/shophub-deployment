@@ -28,6 +28,7 @@ function App() {
   const [name, setName] = useState(null);
   //state to receive data from checkout
   const [checkoutData, setCheckoutData] = useState(null);
+  const [addedItem, setAddedItem] = useState([]);
 
   useEffect(() => {
     fetch("http://ecommerce.muersolutions.com/api/v1/products")
@@ -44,6 +45,10 @@ function App() {
   return (
     <div>
       <div className="logging">
+        <div className="sign">
+          {" "}
+          <h1> ShopHub</h1>
+        </div>
         {isSignedIn ? (
           <div className="sign">
             {" "}
@@ -89,7 +94,7 @@ function App() {
             />
           }
         ></Route>
-        <Route path="/cart/" element={<Cart products={products} />} />
+        <Route path="/cart" element={<Cart addedItem={addedItem} changeAddedItem={setAddedItem} />} />
         <Route
           path="/signIn"
           element={
@@ -119,13 +124,14 @@ function App() {
         />
         <Route
           path="/checkout"
-          element={<Checkout />}
-          payData={(billing) => {
-            setCheckoutData(billing);
-            console.log(billing);
-          }}
+          element={<Checkout addedItem={addedItem} />}
+        //   payData={(billing) => {
+        //     setCheckoutData(billing);
+        //     console.log(billing);
+        //   }
+        // }
         />
-        <Route path="/receipt" element={<Receipt data={checkoutData} />} />
+        {/* <Route path="/receipt" element={<Receipt  />} /> */}
       </Routes>
     </div>
   );
