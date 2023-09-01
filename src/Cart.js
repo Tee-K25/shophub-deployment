@@ -11,7 +11,9 @@ function Cart() {
       .then((res) => res.json())
       .then((items) => setAddedItem(items));
   }, [deleted]);
+
   //function to remove item
+
   function removeItem(id) {
     fetch(`http://localhost:8000/cartItems/${id}`, {
       method: "Delete",
