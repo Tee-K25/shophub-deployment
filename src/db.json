@@ -20,29 +20,51 @@
       "ranking": 3,
       "created": "2023-08-02T07:04:33.516785Z",
       "updated": null,
-      "id": 2
-    },
-    {
-      "product_name": "Mens Cotton Jacket",
-      "product_description": "Great Outerwear Jackets For Spring/Autumn/Winter, Suitable For Many Occasions, Such As Working, Hiking, Camping, Mountain/Rock Climbing, Cycling, Traveling Or Other Outdoors",
-      "unit_price": 5500,
-      "product_full_image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-      "product_thumbnail": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-      "ranking": 5,
-      "created": "2023-08-02T07:32:48.887065Z",
-      "updated": null,
-      "id": 3
-    },
-    {
-      "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "product_description": "Your Perfect Pack For Everyday Use And Walks In The Forest. Stash Your Laptop (Up To 15 Inches) In The Padded Sleeve, Your Everyday",
-      "unit_price": 109,
-      "product_full_image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "product_thumbnail": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "ranking": 3,
-      "created": "2023-08-02T07:04:33.516785Z",
-      "updated": null,
       "id": 4
+    },
+    {
+      "product_name": "Sandisk Ssd Plus 1Tb Internal Ssd - Sata Iii 6 Gb/S",
+      "product_description": "3D Nand Flash Are Applied To Deliver High Transfer Speeds Remarkable Transfer Speeds That Enable Faster Bootup And Improved Overall System Performance.",
+      "unit_price": 1090,
+      "product_full_image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:44:40.870645Z",
+      "updated": null,
+      "id": 5
+    },
+    {
+      "product_name": "Wd 2Tb Elements Portable External Hard Drive - Usb 3.0 ",
+      "product_description": "Usb 3.0 And Usb 2.0 Compatibility Fast Data Transfers Improve Pc Performance High Capacity; Compatibility Formatted Ntfs For Windows 10, Windows 8.1, Windows 7; Reformatting May Be Required For Other Operating Systems",
+      "unit_price": 6400,
+      "product_full_image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "ranking": 5,
+      "created": "2023-08-02T07:42:24.88845Z",
+      "updated": null,
+      "id": 6
+    },
+    {
+      "product_name": "Jordan 4",
+      "product_description": "White Nike Shoes",
+      "unit_price": 4000,
+      "product_full_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nike_Air_Jordan_IV%2C_%28White_Cement_Colorway%29_%28cropped%29.jpg/150px-Nike_Air_Jordan_IV%2C_%28White_Cement_Colorway%29_%28cropped%29.jpg",
+      "product_thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nike_Air_Jordan_IV%2C_%28White_Cement_Colorway%29_%28cropped%29.jpg/150px-Nike_Air_Jordan_IV%2C_%28White_Cement_Colorway%29_%28cropped%29.jpg",
+      "ranking": 10,
+      "created": "2023-08-29T10:11:32.478566Z",
+      "updated": null,
+      "id": 7
+    },
+    {
+      "product_name": "White Gold Plated Princess",
+      "product_description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring For Her. Gifts To Spoil Your Love More For Engagement, Wedding, Anniversary, Valentine'S Day",
+      "unit_price": 9000,
+      "product_full_image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "ranking": 5,
+      "created": "2023-08-02T07:40:11.853504Z",
+      "updated": null,
+      "id": 8
     }
   ]
 }

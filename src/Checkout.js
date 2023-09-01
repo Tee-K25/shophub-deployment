@@ -67,7 +67,7 @@ const Checkout = ({ addedItem }) => {
         {/* <Receipt /> */}
         <div>
           {showreceipt ? (
-            <Receipt addedItem={addedItem} payment={formData.payment} />
+            <Receipt addedItem={addedItem} billing={formData} />
           ) : null}
         </div>
       </div>
