@@ -1,6 +1,17 @@
 {
   "cartItems": [
     {
+      "product_name": "Mens Casual Premium Slim Fit T-Shirts",
+      "product_description": "Slim-Fitting Style, Contrast Raglan Long Sleeve, Three-Button Henley Placket, Light Weight & Soft Fabric For Breathable And Comfortable Wearing.",
+      "unit_price": 2200,
+      "product_full_image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:36:04.592644Z",
+      "updated": null,
+      "id": 1
+    },
+    {
       "product_name": "Mens Cotton Jacket",
       "product_description": "Great Outerwear Jackets For Spring/Autumn/Winter, Suitable For Many Occasions, Such As Working, Hiking, Camping, Mountain/Rock Climbing, Cycling, Traveling Or Other Outdoors",
       "unit_price": 5500,
@@ -9,18 +20,40 @@
       "ranking": 5,
       "created": "2023-08-02T07:32:48.887065Z",
       "updated": null,
-      "id": 1
+      "id": 3
     },
     {
-      "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "product_description": "Your Perfect Pack For Everyday Use And Walks In The Forest. Stash Your Laptop (Up To 15 Inches) In The Padded Sleeve, Your Everyday",
-      "unit_price": 109,
-      "product_full_image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "product_thumbnail": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "ranking": 3,
-      "created": "2023-08-02T07:04:33.516785Z",
+      "product_name": "White Gold Plated Princess",
+      "product_description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring For Her. Gifts To Spoil Your Love More For Engagement, Wedding, Anniversary, Valentine'S Day",
+      "unit_price": 9000,
+      "product_full_image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "ranking": 5,
+      "created": "2023-08-02T07:40:11.853504Z",
       "updated": null,
-      "id": 2
+      "id": 6
+    },
+    {
+      "product_name": "John Hardy Women'S Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "product_description": "Slim-Fitting Style, Contrast Raglan Long Sleeve, Three-Button Henley Placket, Light Weight & Soft Fabric For Breathable And Comfortable Wearing.",
+      "unit_price": 6950,
+      "product_full_image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:37:34.830871Z",
+      "updated": null,
+      "id": 9
+    },
+    {
+      "product_name": "Solid Gold Petite Micropave",
+      "product_description": "Satisfaction Guaranteed. Return Or Exchange Any Order Within 30 Days.Designed And Sold By Hafeez Center In The United States.",
+      "unit_price": 1600,
+      "product_full_image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:38:40.847968Z",
+      "updated": null,
+      "id": 10
     }
   ]
 }

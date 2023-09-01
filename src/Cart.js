@@ -3,13 +3,13 @@ import "./productlist.css";
 import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-function Cart() {
-  const [addedItem, setAddedItem] = useState(null);
+function Cart({addedItem, changeAddedItem}) {
+  
   const [deleted, setDeleted] = useState(false);
   useEffect(() => {
     fetch(" http://localhost:8000/cartItems")
       .then((res) => res.json())
-      .then((items) => setAddedItem(items));
+      .then((items) => changeAddedItem(items));
   }, [deleted]);
   //function to remove item
   function removeItem(id) {
@@ -27,22 +27,26 @@ function Cart() {
           <Link to="/checkout">Checkout</Link>
         </button>
       </div>
+      <div className="products" >
       {addedItem &&
         addedItem.map((data, index) => {
           // console.log(index);
           return (
-            <div key={index} className="products">
-              <div className="innerprod">
-                <h3>{data.product_name}</h3>
-                <img src={data.product_full_image} />
-                <ul>
-                  <li>Price: {data.unit_price}</li>
-                </ul>
-                <button onClick={() => removeItem(data.id)}>Remove</button>
+            <div>
+              <div key={index} >
+                <div className="innerprod">
+                  <img src={data.product_full_image} />
+                  <h3>{data.product_name}</h3>
+                  <ul>
+                    <li>Price: {data.unit_price}</li>
+                  </ul>
+                  <button onClick={() => removeItem(data.id)}>Remove</button>
+                </div>
               </div>
             </div>
           );
         })}
+        </div>
     </div>
   );
 }
