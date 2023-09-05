@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 function Cart({ addedItem, changeAddedItem }) {
   const [deleted, setDeleted] = useState(false);
   useEffect(() => {
-    fetch(" http://localhost:8000/cartItems")
+    fetch(" https://cart-items-h8sm.onrender.com/")
       .then((res) => res.json())
       .then((items) => changeAddedItem(items));
   }, [deleted]);
@@ -14,7 +14,7 @@ function Cart({ addedItem, changeAddedItem }) {
   //function to remove item
 
   function removeItem(id) {
-    fetch(`http://localhost:8000/cartItems/${id}`, {
+    fetch(`https://cart-items-h8sm.onrender.com/${id}`, {
       method: "Delete",
     });
     setDeleted(!deleted);
