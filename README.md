@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# SHOPHUB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is an e-commerce platform that allows users to browse and shop for products. Users can view a list of products without the need to sign in, click on a product to see more details, register as a customer, log in, add or remove products from their cart, view the number of items in their cart, perform a checkout process, including providing a delivery address, simulating a payment, and generating an order receipt.
 
-In the project directory, you can run:
+## Requirements and Specifications
 
-### `npm start`
+To run this project, you'll need the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js v14.9.0
+- npm v6.14.8
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup instructions
 
-### `npm test`
+To set up this project on your local machine, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone git@github.com:shophub-6/shophub-6.git`
+2. Navigate to the project folder.
+3. Install dependencies: `npm install`
+4. Start the server: `npm start`
+5. Use `json-server --watch src/db.json --port 8000` to start a local server that acts as data-base for the cart items.
+6. Open your web browser and go to `http://localhost:3000` to access the platform.
 
-### `npm run build`
+## Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is built using the following technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
+- CSS
+- JavaScript
+- Node.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+### Viewing Products
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Upon landing on the platform (http://localhost:3000), you will see a list of products. You can click on any product to view more details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Registration and Login
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you want to make purchases, you can register as a customer by clicking the "Register" link. Fill out the registration form, and you will receive a confirmation email.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To log in, click the "Log In" link and use the credentials you used during registration.
 
-## Learn More
+### Adding and Removing Products from Cart
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+When viewing a product, you can add it to your cart by clicking the "Add to Cart" button. You can also remove products from your cart by clicking "Remove" button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Viewing Cart
 
-### Code Splitting
+You can see the number of items in your cart displayed on the platform. Clicking on the cart button will show you the contents of your cart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Checkout Process
 
-### Analyzing the Bundle Size
+To perform a checkout:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Add products to your cart.
+2. Click the "Checkout" button in your cart.
+3. Provide a delivery address.
+4. Simulate a payment process (no real payment is made in this demo).
+5. A receipt for the goods you purchased will be generated.
 
-### Making a Progressive Web App
+### Log Out
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Once you're done, you can log out by clicking the "Log Out" button.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Made by Group 6
 
-### Deployment
+## Contacts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to contact me at zanytony111@gmail.com For any contributions, please visit https://github.com/shophub-6/shophub-6/tree/main
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Copyright © 2023 Group 6
