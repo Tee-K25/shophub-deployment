@@ -9,6 +9,7 @@ import Signin from "./Signin";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
 import Receipt from "./Receipt";
+import Nav from "./Nav";
 
 function App() {
   const [products, setProducts] = useState([
@@ -76,7 +77,9 @@ function App() {
             </Link>{" "}
           </div>
         )}
+        {isLoggedIn ? <Nav /> : ""}
       </div>
+
       <Routes>
         <Route
           path="/*"
@@ -94,7 +97,12 @@ function App() {
             />
           }
         ></Route>
-        <Route path="/cart" element={<Cart addedItem={addedItem} changeAddedItem={setAddedItem} />} />
+        <Route
+          path="/cart"
+          element={
+            <Cart addedItem={addedItem} changeAddedItem={setAddedItem} />
+          }
+        />
         <Route
           path="/signIn"
           element={
@@ -125,11 +133,11 @@ function App() {
         <Route
           path="/checkout"
           element={<Checkout addedItem={addedItem} />}
-        //   payData={(billing) => {
-        //     setCheckoutData(billing);
-        //     console.log(billing);
-        //   }
-        // }
+          //   payData={(billing) => {
+          //     setCheckoutData(billing);
+          //     console.log(billing);
+          //   }
+          // }
         />
         {/* <Route path="/receipt" element={<Receipt  />} /> */}
       </Routes>

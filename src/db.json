@@ -65,6 +65,28 @@
       "created": "2023-08-02T07:40:11.853504Z",
       "updated": null,
       "id": 8
+    },
+    {
+      "product_name": "Mens Casual Premium Slim Fit T-Shirts",
+      "product_description": "Slim-Fitting Style, Contrast Raglan Long Sleeve, Three-Button Henley Placket, Light Weight & Soft Fabric For Breathable And Comfortable Wearing.",
+      "unit_price": 2200,
+      "product_full_image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:36:04.592644Z",
+      "updated": null,
+      "id": 9
+    },
+    {
+      "product_name": "Sandisk Ssd Plus 1Tb Internal Ssd - Sata Iii 6 Gb/S",
+      "product_description": "Easy Upgrade For Faster Boot Up, Shutdown, Application Load And Response (As Compared To 5400 Rpm Sata 2.5” Hard Drive;",
+      "unit_price": 6400,
+      "product_full_image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "product_thumbnail": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "ranking": 4,
+      "created": "2023-08-02T07:43:19.062436Z",
+      "updated": null,
+      "id": 10
     }
   ]
 }
