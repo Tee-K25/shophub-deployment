@@ -3,7 +3,6 @@ import { Route, Routes, useLocation, useParams } from "react-router";
 import "./selectproduct.css";
 import { Link } from "react-router-dom";
 
-
 function SelectedProduct({ products, isSignedIn, isLoggedIn }) {
   const { index } = useParams();
   // console.log(products);
@@ -15,7 +14,7 @@ function SelectedProduct({ products, isSignedIn, isLoggedIn }) {
 
   //function to add item to cart
   function addItem() {
-    fetch(" http://localhost:8000/cartItems", {
+    fetch(" https://cart-items-h8sm.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(select),
